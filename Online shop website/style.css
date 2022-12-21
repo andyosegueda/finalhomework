@@ -1,0 +1,354 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body { 
+    font-family: 'Courier New', Courier, monospace;
+
+    padding: 0;
+
+    margin: 0;
+}
+
+nav {
+    background-color: black;
+
+    color: white;
+
+    padding: 20px 50px;
+}
+
+.topnav{
+    display: flex;
+
+    align-items: center;
+
+    justify-content: space-between;
+}
+
+.search { 
+    display: flex;
+
+    align-items: center;
+
+    background-color: lightgray;
+
+    padding: 10px 20px;
+
+    border-radius: 10px;
+}
+
+.searchinput{
+    border: none;
+
+    background-color: lightgray;
+}
+
+.searchinput::placeholder{
+    color: black;
+}
+
+.bottomnavbar{
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+}
+
+.menubutton{
+    margin-right: 50px;
+
+    cursor: pointer;
+
+    color: black;
+
+    font-weight: 400;
+}
+
+.companyideas{
+    display: flex;
+
+    align-items: center;
+
+    justify-content: space-evenly;
+
+    padding: 50px;
+}
+
+.companyidea{
+    display: flex;
+
+    flex-direction: column;
+
+    align-items: center;
+
+    text-align: center;
+}
+
+.ideaicon{
+    width: 50px;
+
+    height: 50px;
+}
+
+.ideatitle{
+    font-size: 20px;
+
+    font-weight: 600;
+
+    height: 50px;
+}
+
+.ideadescription{
+    color: black;
+
+    width: 50%;
+
+    height: 100px;
+}
+
+.product{
+    height: 100vh;
+
+    background-color: lightgray;
+
+    position: relative;
+
+    clip-path: polygon(0 15%, 100% 0);
+}
+
+.payment{
+    width: 510px;
+
+    height: 510px;
+
+    background-color: white;
+
+    position: absolute;
+
+    top: 0;
+
+    bottom: 0;
+
+    left: 0;
+
+    right: 0;
+
+    margin: auto;
+
+    padding: 10px 50px;
+
+    display: none;
+
+    flex-direction: column;
+
+    -webkit-box-shadow: 0px 0px 13px 2px rgba(0, 0, 0, 0.3);
+
+    box-shadow: 0px 0px 13px 2px rgba(0, 0, 0, 0.3);
+}
+
+.gameboy{
+    width: 50%;
+}
+
+.buybutton{
+    float: right;
+
+    padding: 10px 20px;
+
+    background-color: black;
+
+    color: lightgray;
+
+    font-weight: 600;
+
+    cursor: pointer;
+}
+
+.gameboydescription{
+    font-style: 24px;
+
+    color: black;
+}
+
+.producttitle{
+    font-size: 75px;
+
+    font-weight: 900;
+}
+
+.productdetails{
+    position: absolute;
+
+    top: 10%;
+
+    right: 0;
+
+    width: 40px;
+
+    padding: 50px;
+}
+.colors{
+    display: flex;
+
+    margin-bottom: 20px;
+}
+
+.sizes{
+    display: flex;
+
+    margin-bottom: 20px;
+}
+
+.size{
+    padding: 5px 20px;
+
+    border: 1px solid black;
+
+    margin-right: 10px;
+
+    cursor: pointer;
+
+    font-size: 20px;
+}
+
+.buybutton:hover{
+    background-color: white;
+
+    color: black;
+}
+.footeright{
+    flex: 1;
+}
+
+.section{
+    padding: 50px;
+
+    display: flex;
+}
+
+.sectionitem{
+    flex: 1;
+
+    padding: 50px;
+}
+
+.sectionimage{
+    width: 100%;
+}
+
+.newseason{
+    display: flex;
+}
+
+.cppyright{
+    font-weight: 300;
+
+    font-size: 14px;
+}
+
+@media screen and (max-width:480px){
+    nav{
+        padding: 20px;
+    }
+
+    .search{
+        display: none;
+    }
+
+    .bottomnavabar{
+        flex-wrap: wrap;
+    }
+
+    .menubutton{
+        margin: 20px;
+
+        font-weight: 700;
+
+        font-size: 20px;
+    }
+
+    .product{
+        clip-path: none;
+
+        display: flex;
+
+        flex-direction: column;
+
+        align-items: center;
+    }
+
+    .productdetails{
+        width: 100%;
+
+        padding: 0;
+
+        display: flex;
+
+        flex-direction: column;
+
+        align-items: center;
+
+        text-align: center;
+
+        position: relative;
+
+        top: 0;
+    }
+
+    .producttitle{
+        font-size: 50px;
+
+        margin: 0;
+    }
+
+    .gameboy{
+        width: 80%;
+    }
+
+    .section{
+        display: none;
+    }
+
+    .newgames{
+        flex-direction: column;
+    }
+    
+    footer{
+        flex-direction: column;
+
+        align-items: center;
+    }
+
+    .leftfooter{
+        padding: 20px;
+
+        width: 90%;
+    }
+
+    .rightfooter{
+        padding: 20px;
+
+        width: 90%;
+
+        align-items: center;
+        
+        background-color: white;
+    }
+
+    .payment{
+        width: 90%;
+
+        padding: 20px2;
+    }
+
+    .section{
+        display: none;
+    }
+
+    .newseason{
+        flex-direction: column;
+    }
+
+}
