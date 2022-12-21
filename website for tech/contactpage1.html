@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Contact Page</title>
+
+    <link rel="stylesheet" href="style4.css">
+
+</head>
+
+<body>
+
+    <nav>
+           
+        <ul>
+            <li><a href="http://eve.kean.edu/~osegueda/homepage1.html"class="active">Homepage</a></li>
+            <li><a href="http://eve.kean.edu/~osegueda/Aboutme1.html"class=" active">About Me</a></li>
+            <li><a href="http://eve.kean.edu/~osegueda/skill.html"class=" active">Experience/Skills</a></li>
+            <li><a href="http://eve.kean.edu/~osegueda/contactpage1.html">Contact</a></li>
+           
+        </ul>
+
+    </nav>
+
+    <div class="container">
+
+        <form onsubmit="sendEmail(); reset(); return false;">
+
+            <h3>Contact Me</h3>
+            
+            <input type="text" id="name" placeholder="Your Name" required>
+
+            <input type="email" id="email" placeholder="Email Address" required>
+            
+            <input type="text" id="phone" placeholder="Phone Number" required>
+
+            <textarea id="message" rows="4" placeholder="Comments/Inquiries"></textarea>
+
+            <button type="submit">Send</button>
+
+        </form>
+
+    </div>
+   
+    
+</body>
+
+</html>
