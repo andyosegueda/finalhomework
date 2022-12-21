@@ -1,0 +1,117 @@
+.searchbar{
+
+    display: flex;
+
+    align-items: right;
+
+    background-color: whitesmoke;
+
+    padding: 15px 20px;
+
+    border-radius: 15px;
+
+    width: 500px;
+
+}
+
+.userinput{
+
+    border: none;
+
+    background-color: transparent;
+}
+
+.userinput::placeholder{
+
+    color: black;
+
+}
+
+html{
+
+    scroll-behavior: smooth;
+
+}
+
+body{
+
+    font-family: 'Times New Roman', Times, serif;
+
+    padding: 0;
+
+    margin: 0;
+
+}
+
+nav {
+
+    background-color: lightgray;
+
+    color: black;
+
+    padding: 15px 40px;
+
+    margin-bottom: 2px;
+
+}
+
+.navbarselections{
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content:space-around;
+
+    background-color: whitesmoke;
+
+    margin-top: 7px;
+
+}
+
+.textarea{
+
+    background-color: lightgrey;
+
+    border-radius: 15px;
+
+    padding-left: 15px;
+
+    margin-left: 50px;
+
+    margin-right: 50px;
+
+    justify-content: space-around;
+    
+    align-items: center;
+
+    line-height: 2;
+
+    font-size: 25px;
+
+}
+body{
+    background-image: url(roads.jpeg);
+}
+
+.textareas{
+
+    border-radius: 15px;
+
+    padding-left: 15px;
+
+    margin-left: 50px;
+
+    margin-right: 50px;
+
+    justify-content: space-around;
+    
+    text-align: center;
+
+    line-height: 2;
+
+    font-size: 50px;
+    
+}
+
+

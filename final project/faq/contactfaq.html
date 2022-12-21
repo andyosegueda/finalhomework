@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+
+<html>
+
+  <head>
+
+    <meta charset="utf-8">
+
+    <title>FAQ</title>
+
+    
+
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    
+    <style type="text/css">
+
+    nav {
+
+    background-color: lightgray;
+
+    color: black;
+
+    padding: 15px 40px;
+
+    padding-top: 3px;
+
+    }
+
+    .navbarselections{
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content:space-around;
+
+    background-color: whitesmoke;
+
+    margin-top: 7px;
+
+    }
+
+      body{
+
+        background-image: url(roads.jpeg);
+
+        padding-top: 20px;
+
+        font-family: 'Times New Roman', Times, serif;
+
+      }
+
+      .header{
+
+        border-radius: 20px 20px 0px 0px;
+
+        padding: 10px 0px;
+
+        background: lightgray;
+
+        color: black;
+
+        width: 100%;
+
+        display: flex;
+
+        align-content: center;
+
+        justify-content: center;
+
+        margin-top: 10px;
+
+      }
+
+      .faq-item{
+
+        margin-bottom: 40px;
+
+        margin-top: 40px;
+
+      }
+
+      .faq-body{
+
+        display: none;
+
+        margin-top: 30px;
+
+      }
+
+      .faq-wrapper{
+
+        width: 75%;
+
+        margin: 0 auto;
+
+      }
+
+      .faq-inner{
+
+        padding: 30px;
+        
+        background: aliceblue;
+      }
+
+      .faq-plus{
+
+        float: right;
+
+        font-size: 1.5em;
+
+        line-height: 1em;
+
+        cursor: pointer;
+
+      }
+
+      hr{
+
+        background-color: white;
+
+      }
+
+    </style>
+
+  </head>
+
+  <body>
+
+    <nav id="nav">
+
+        <div class="navbar">
+
+         </div>
+
+   
+
+     </div>
+
+     <div class="navbarselections">
+
+      <h1 class="selection"><a href="http://eve.kean.edu/~osegueda/getyourcdl.html">Home</a></h1>
+
+      <h1 class="selection"><a href="http://eve.kean.edu/~osegueda/clp.html">CLP/DMV</a></h1>
+
+      <h1 class="selection"><a href="http://eve.kean.edu/~osegueda/drivingschool.html">Driving School</a></h1>
+
+      <h1 class="selection"><a href="http://eve.kean.edu/~osegueda/contactfaq.html">FAQ</a></h1>
+
+     </div>
+
+     </nav>
+    <div class="container">
+
+      <div class="row">
+
+        <div class="faq-wrapper">
+
+          <div class="header">
+
+            <h1>FAQs</h1>
+
+          </div>
+
+          <div class="faq-inner">
+
+            <div class="faq-item">
+
+              <h3>
+
+                How old do you need to be to get your license and what are the requirements?
+
+                <span class="faq-plus">&plus;</span>
+
+              </h3>
+
+              <div class="faq-body">
+
+               You have to be at least 18 years old and possess a license from the state that you currently live in
+
+              </div>
+
+            </div>
+
+            <hr>
+
+            <div class="faq-item">
+
+              <h3>
+
+                How much does driving school cost?
+
+                <span class="faq-plus">&plus;</span>
+
+              </h3>
+
+              <div class="faq-body">
+
+                 There is no set cost to how much it will cost you but it can range anywhere from 3000 to 10000 dollars
+              </div>
+
+            </div>
+
+            <hr>
+
+            <div class="faq-item">
+
+              <h3>
+
+                I dont know how to drive manual is that a problem?
+
+                <span class="faq-plus">&plus;</span>
+
+              </h3>
+
+              <div class="faq-body">
+
+                This is a situational thing because most trucks nowadays from the assembly line are automatic, but some jobs will have manual trucks.
+                It's also important to note if you take your test in a automatic truck you will get a manual restriction meaning you cannot legally operate
+                a manual vehicle.
+
+              </div>
+
+            </div>
+
+            <hr>
+
+            <div class="faq-item">
+
+              <h3>
+
+                 What is the hardest thing about driving a class a vehicle?
+
+                <span class="faq-plus">&plus;</span>
+              </h3>
+
+              <div class="faq-body">
+
+                Having to share the road with four wheelers
+              </div>
+
+            </div>
+
+            <hr>
+
+            <div class="faq-item">
+
+              <h3>
+
+                What gps would you recommend?
+
+                <span class="faq-plus">&plus;</span>
+
+              </h3>
+
+              <div class="faq-body">
+
+                Currently I'm using the Garmin - dezl OTR700 7" GPS Truck Navigator
+
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+    <script type="text/javascript">
+
+      $(".faq-plus").on('click',function(){
+
+        $(this).parent().parent().find('.faq-body').slideToggle();
+
+      });
+
+    </script>
+
+  </body>
+
+</html>
